@@ -1,12 +1,20 @@
 export default function Login() {
   return (
     <>
-      <form action="#">
+      <h2>Sign Up Form</h2>
+
+      <form>
         <input type="text" placeholder="Username" />
-        <br /> <br />
-        <input type="text" placeholder="Password" />
-        <br /> <br />
-        <button type="submit">Login</button>
+        <br /><br />
+
+        <input type="email" placeholder="Email" />
+        <br /><br />
+
+        <input type="password" placeholder="Password" />
+        <br /><br />
+
+        <button type="submit">Submit</button>
       </form>
-    </> 
-  )};
+    </>
+  );
+}
